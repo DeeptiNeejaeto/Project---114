@@ -1,0 +1,26 @@
+h3{
+    font-size:25px !important;
+    font-family:cursive;
+}
+
+.btn-primary:hover{
+    background-color: violet;
+    font-family: cursive;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 50px rgb(165, 0, 248);}
+    to {box-shadow: 1px 1px 50px rgb(248, 5, 66);}
+    from {box-shadow: 1px 1px 50px rgb(26, 74, 231);}
+    to {box-shadow: 1px 1px 50px rgb(253, 166, 3);}
+    from {box-shadow: 1px 1px 50px rgb(2, 18, 70);}
+    to {box-shadow: 1px 1px 50px rgba(18, 217, 231, 0.5);}
+    from {box-shadow: 1px 1px 50px rgb(6, 97, 47);}
+    to {box-shadow: 1px 1px 50px rgb(251, 130, 130);}
+};
